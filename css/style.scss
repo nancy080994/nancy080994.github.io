@@ -1,0 +1,780 @@
+@import "./default";
+@import "./mixin";
+
+* {
+   box-sizing: border-box;
+   font-family: "Microsoft JhengHei";
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   margin: 0;
+}
+
+a {
+   text-decoration: none;
+}
+
+#logobar {
+   width: 100%;
+   height: 60px;
+   background-color: rgb(75, 75, 75);
+
+   .container {
+      @include container();
+
+      .logo {
+         width: 120px;
+         height: 100%;
+         background-image: url(../img/disneyLOGO-white.png);
+         background-position: center;
+         background-size: cover;
+         margin: auto;
+      }
+   }
+}
+
+//////// banner ///////////////////////////////////////////
+
+#banner {
+   width: 100%;
+   height: 600px;
+   background-color: rgb(228, 228, 228);
+   background-image: url(https://www.showmetech.com.br/wp-content/uploads/2016/03/zootopia.jpg);
+   background-size: cover;
+   background-position: center;
+   box-shadow: inset 0px 3px 3px rgba(20%, 20%, 40%, 0.5);
+   position: relative;
+
+   .movie-name {
+      background-image: url(../img/Zootopia_logo_white..png);
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 42%;
+      height: 30%;
+      position: absolute;
+      top: 12%;
+      left: 5%;
+   }
+}
+
+//////// navbar ///////////////////////////////////////////
+
+#nav {
+   width: 100%;
+   height: 60px;
+   background-color: rgb(255, 255, 255);
+   margin: -16px 0;
+   box-shadow: 0px 1px 4px 0px rgb(172, 172, 172);
+   position: sticky;
+   top: 0;
+   left: 0;
+   display: flex;
+   font-size: 18.5px;
+   z-index: 666;
+
+   .container {
+      @include container();
+
+      .btn-group {
+         width: 100%;
+         height: 100%;
+         background-color: rgb(255, 255, 255);
+         display: flex;
+         align-items: center;
+         justify-content: center;
+
+         div {
+            width: 200px;
+
+            span {
+               display: block;
+               margin-top: -60px;
+               color: rgb(247, 146, 80);
+            }
+         }
+      }
+
+      div {
+         height: 60px;
+         line-height: 60px;
+         float: left;
+         overflow: hidden;
+         text-align: center;
+      }
+
+      div:nth-child(4) {
+         border-right: 1px solid rgb(209, 209, 209);
+      }
+
+      a {
+         width: 100%;
+         float: left;
+         overflow: hidden;
+         font-weight: 600;
+         color: rgb(53, 53, 53);
+         border-left: 1px solid rgb(209, 209, 209);
+
+         &:hover {
+            padding-top: 60px;
+            background-color: #f5f5f5;
+         }
+      }
+   }
+}
+
+//////// content ///////////////////////////////////////////
+
+#content {
+   width: 100%;
+   min-height: 800px;
+   background-color: rgb(228, 228, 228);
+   margin-top: 15px;
+
+   .container {
+      @include container();
+
+      #section1 {
+         width: 100%;
+
+         #Fakesction1 {
+            .Fake-anchor {
+               @include Fake-anchor();
+            }
+         }
+
+         .title {
+            @include title_a();
+         }
+
+         .content-box {
+            @include content-box();
+
+            .text {
+               width: 450px;
+               min-height: 350px;
+               display: flex;
+               align-items: center;
+               line-height: 35px;
+               text-align: justify;
+               color: rgb(85, 85, 85);
+
+               margin-right: 55px;
+            }
+
+            .photo1 {
+               width: 600px;
+               height: 350px;
+               background-color: rgb(167, 165, 165);
+               background-image: url(https://www.viewmovie.tw/system/uploads/forala/image/file/558/1458788953300____1_.jpg);
+               background-position: center;
+               background-size: cover;
+            }
+         }
+      }
+
+      #section2 {
+         #Fakesction2 {
+            .Fake-anchor {
+               @include Fake-anchor();
+            }
+         }
+
+         .title {
+            @include title_b();
+         }
+
+         .content-box {
+            @include content-box();
+
+            .CHARACTERS {
+               display: flex;
+               align-items: center;
+
+               .CHARACTERS-photo-border {
+                  @include CHARACTERS-photo-border();
+
+                  .CHARACTERS-1 {
+                     background-image: url(http://img31.mtime.cn/mg/2016/02/05/111340.55707133.jpg);
+                  }
+
+                  .CHARACTERS-2 {
+                     background-image: url(http://img31.mtime.cn/mg/2016/02/05/111515.95222963.jpg);
+                  }
+
+                  .CHARACTERS-3 {
+                     background-image: url(http://img31.mtime.cn/mg/2016/02/05/111633.54851541.jpg);
+                  }
+
+                  .CHARACTERS-4 {
+                     background-image: url(http://img31.mtime.cn/mg/2016/02/05/111738.53763493.jpg);
+                  }
+
+                  .CHARACTERS-5 {
+                     background-image: url(http://img31.mtime.cn/mg/2016/02/23/094846.61508513.jpg);
+                  }
+
+                  .CHARACTERS-6 {
+                     background-image: url(http://img31.mtime.cn/mg/2016/02/23/095007.15538743.jpg);
+                  }
+
+                  .CHARACTERS-7 {
+                     background-image: url(http://img31.mtime.cn/mg/2016/02/05/112328.64585255.jpg);
+                  }
+
+                  .CHARACTERS-8 {
+                     background-image: url(https://www.chroniquedisney.fr/imgPerso/secondsroles/2016-gazelle-01.jpg);
+                  }
+
+                  .CHARACTERS-photo {
+                     @include CHARACTERS-photo();
+
+                     &:hover {
+                        @include CHARACTERS-photo_hover();
+                     }
+                  }
+               }
+               .text-box {
+                  @include text_box();
+
+                  .h2 {
+                     color: rgb(182, 121, 97);
+                  }
+               }
+            }
+
+            .line {
+               @include line();
+            }
+         }
+      }
+
+      #section3 {
+         #Fakesction3 {
+            .Fake-anchor {
+               @include Fake-anchor();
+            }
+         }
+
+         .title {
+            @include title_a();
+         }
+
+         .content-box2 {
+            width: 100%;
+            min-height: 300px;
+            padding: 60px 0 100px 0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap-reverse;
+            position: relative;
+
+            input {
+               width: 125px;
+               height: 125px;
+               margin: 0;
+               position: absolute;
+               z-index: 22;
+               opacity: 0;
+            }
+
+            #ipt-1:hover ~ #pic-1,
+            #ipt-2:hover ~ #pic-2,
+            #ipt-3:hover ~ #pic-3,
+            #ipt-4:hover ~ #pic-4,
+            #ipt-5:hover ~ #pic-5 {
+               filter: brightness(100%);
+            }
+
+            #pic-1,
+            #pic-2,
+            #pic-3,
+            #pic-4,
+            #pic-5:hover {
+               filter: brightness(100%);
+            }
+
+            #ipt-1 {
+               left: 4.5%;
+               &:checked ~ .show-box {
+                  background-image: url(https://furry-fandom.ru/wp-content/uploads/2020/01/Zootopia-City-Panorama-scaled.jpg);
+               }
+            }
+
+            #ipt-2 {
+               left: 25%;
+               &:checked ~ .show-box {
+                  background-image: url(https://vidafascinante.com/uploads/posts/media/FILE-20161003-2252SWWZW6WP4CVA.png);
+               }
+            }
+
+            #ipt-3 {
+               left: 45.25%;
+               &:checked ~ .show-box {
+                  background-image: url(https://expresselevatortohell.files.wordpress.com/2016/05/zootopia-flash-flash-hundred-yard-dash.jpg);
+               }
+            }
+
+            #ipt-4 {
+               left: 65.5%;
+               &:checked ~ .show-box {
+                  background-image: url(https://pbs.twimg.com/media/ESxm-s7XkAM9fv9.jpg);
+               }
+            }
+
+            #ipt-5 {
+               left: 86%;
+               &:checked ~ .show-box {
+                  background-image: url(../img/第五張圖.jpg);
+               }
+            }
+
+            #pic-1 {
+               filter: brightness(35%);
+               background-image: url(https://furry-fandom.ru/wp-content/uploads/2020/01/Zootopia-City-Panorama-scaled.jpg);
+            }
+
+            #pic-2 {
+               filter: brightness(35%);
+               background-image: url(https://vidafascinante.com/uploads/posts/media/FILE-20161003-2252SWWZW6WP4CVA.png);
+            }
+
+            #pic-3 {
+               filter: brightness(35%);
+               background-image: url(https://expresselevatortohell.files.wordpress.com/2016/05/zootopia-flash-flash-hundred-yard-dash.jpg);
+            }
+
+            #pic-4 {
+               filter: brightness(35%);
+               background-image: url(https://pbs.twimg.com/media/ESxm-s7XkAM9fv9.jpg);
+            }
+
+            #pic-5 {
+               filter: brightness(35%);
+               background-image: url(../img/第五張圖.jpg);
+            }
+
+            .small-photo {
+               width: 18.5%;
+               height: 125px;
+               background-color: khaki;
+               background-position: center;
+               background-size: cover;
+            }
+
+            .show-box {
+               width: 100%;
+               height: 600px;
+               background-color: indianred;
+               margin-bottom: 22px;
+               background-image: url(https://furry-fandom.ru/wp-content/uploads/2020/01/Zootopia-City-Panorama-scaled.jpg);
+               background-position: center;
+               background-size: cover;
+               transition: 0.8s;
+            }
+         }
+      }
+
+      #section4 {
+         #Fakesction4 {
+            .Fake-anchor {
+               @include Fake-anchor();
+            }
+         }
+
+         .title {
+            @include title_b();
+         }
+
+         .content-box3 {
+            width: 100%;
+            min-height: 200px;
+            padding: 70px 110px 130px 110px;
+            display: flex;
+            justify-content: center;
+
+            .news:nth-child(2) {
+               margin: 0 25px 0;
+            }
+
+            .news {
+               width: 340px;
+               height: 450px;
+               background-color: rgb(255, 255, 255);
+               box-shadow: 0px 0px 10px 3px rgba(153, 153, 153, 0.623);
+               transition: 0.8s;
+               overflow: hidden;
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+
+               &:hover {
+                  filter: brightness(115%);
+                  width: 420px;
+               }
+
+               .news-photo {
+                  width: 100%;
+                  height: 70%;
+                  background-color: lightseagreen;
+                  background-position: center;
+                  background-size: cover;
+                  box-shadow: inset 0px -17px 10px -15px rgba(34, 34, 34, 0.185);
+                  display: block;
+               }
+
+               .news-photo1 {
+                  background-image: url(https://media.begeek.fr/2017/11/disney.jpg);
+               }
+
+               .news-photo2 {
+                  background-image: url(https://static.billboard.com/files/media/shakira-try-everything-vid-2016-billboard-650-compressed.jpg);
+               }
+
+               .news-photo3 {
+                  background-image: url(https://www.natgeomedia.com/wp-content/uploads/2016/03/%E5%89%9B%E6%8A%B5%E9%81%94%E5%8B%95%E7%89%A9%E6%96%B9%E5%9F%8E%E5%B8%82.png);
+               }
+
+               .news-textbox {
+                  width: 375px;
+                  height: 30%;
+                  background-color: rgb(255, 255, 255);
+                  padding: 15px 50px;
+                  text-align: justify;
+
+                  span {
+                     color: rgb(182, 121, 97);
+                     font-size: 19.5px;
+                     font-weight: 600;
+                     line-height: 30px;
+                  }
+               }
+            }
+         }
+      }
+
+      #section1,
+      #section2,
+      #section3,
+      #section4 {
+         position: relative;
+      }
+   }
+
+   #footer {
+      width: 100%;
+      height: 70px;
+      background-color: rgb(75, 75, 75);
+      box-shadow: 0px -3px 10px 0px rgb(156, 156, 156);
+      padding: 10px 0 10px 40px;
+      display: flex;
+   }
+
+   .logo2 {
+      width: 130px;
+      height: 100%;
+      background-image: url(../img/disneyLOGO-white.png);
+      background-position: center;
+      background-size: cover;
+   }
+
+   .btn-group2 {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+   }
+
+   .btn-group2 a {
+      color: rgb(202, 201, 201);
+      font-weight: 600;
+      margin-right: 55px;
+   }
+
+   .btn-group2 a:hover {
+      color: rgb(255, 146, 103);
+   }
+
+   #GotoTop {
+      width: 60px;
+      height: 60px;
+      background-color: rgba(175, 175, 175, 0.719);
+      border-radius: 50%;
+      position: fixed;
+      z-index: 3;
+      right: 35px;
+      bottom: 20px;
+      transition: 0.2s;
+      background-image: url(../img/arrow-icon-white-2.png);
+      background-position: center;
+      background-size: 70%;
+      background-repeat: no-repeat;
+      transition: 0.2s;
+   }
+
+   #GotoTop:hover {
+      width: 75px;
+      height: 75px;
+      background-color: rgb(255, 146, 103);
+      background-image: url(../img/arrow-icon-white.png);
+      box-shadow: 0px 0px 10px 2px rgba(153, 153, 153, 0.623);
+   }
+
+   @media (max-width: 1280px) {
+      .container {
+         width: 1140px;
+      }
+      #nav .btn-group div {
+         width: 180px;
+      }
+      .text {
+         width: 300px;
+         min-height: 350px;
+      }
+      .photo1 {
+         width: 500px;
+         height: 350px;
+         background-color: rgb(167, 165, 165);
+         background-image: url(https://www.viewmovie.tw/system/uploads/forala/image/file/558/1458788953300____1_.jpg);
+         background-position: center;
+         background-size: cover;
+      }
+      .text-box {
+         width: 650px;
+      }
+      .news {
+         width: 290px;
+      }
+      .news-textbox {
+         width: 300px;
+         padding: 15px 30px;
+      }
+   }
+
+   @media (max-width: 1140px) {
+      .container {
+         width: 960px;
+      }
+      .text-box {
+         width: 530px;
+      }
+      .news-photo {
+         width: 100%;
+         height: 68%;
+      }
+      .news {
+         width: 230px;
+      }
+      .news-textbox {
+         width: 265px;
+         height: 32%;
+         padding: 10px 45px;
+      }
+      .news-textbox span {
+         font-size: 17.5px;
+      }
+      .btn-group2 a {
+         color: rgb(202, 201, 201);
+         font-weight: 600;
+         margin-right: 40px;
+      }
+      #ipt-1 {
+         left: 3%;
+      }
+      #ipt-2 {
+         left: 23.5%;
+      }
+      #ipt-3 {
+         left: 44%;
+      }
+      #ipt-4 {
+         left: 63.9%;
+      }
+      #ipt-5 {
+         left: 84.5%;
+      }
+   }
+
+   @media (max-width: 960px) {
+      .container {
+         width: 100%;
+      }
+      #nav .btn-group div {
+         width: 25%;
+      }
+      .content-box {
+         padding: 0px 150px 100px 150px;
+      }
+      #section2 .content-box {
+         padding-top: 20px;
+      }
+      .box {
+         min-width: 0;
+         width: 100%;
+      }
+      .text {
+         width: 100%;
+         min-height: 250px;
+      }
+      .content-box .text {
+         margin-right: 0;
+      }
+      .photo1 {
+         width: 100%;
+         height: 350px;
+         background-color: rgb(167, 165, 165);
+         background-image: url(https://www.viewmovie.tw/system/uploads/forala/image/file/558/1458788953300____1_.jpg);
+         background-position: center;
+         background-size: cover;
+      }
+      .CHARACTERS {
+         flex-direction: column;
+      }
+      .CHARACTERS-photo-border {
+         margin-right: 0;
+      }
+      .h2 {
+         color: rgb(182, 121, 97);
+         margin: 25px auto;
+      }
+      .text-box {
+         width: 100%;
+         min-height: 150px;
+      }
+      .content-box3 {
+         padding: 50px 110px 120px 110px;
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+      }
+      .news {
+         width: 100%;
+         height: 200px;
+         box-shadow: 4px 3px 9px -2px rgba(150, 150, 150, 0.527);
+         flex-direction: row;
+      }
+      .news-photo {
+         width: 60%;
+         height: 100%;
+         transition: 0.8s;
+      }
+      .news-textbox {
+         height: 100%;
+         padding: 15px 50px;
+         display: flex;
+         align-items: center;
+      }
+      .content-box3 .news:nth-child(2) {
+         margin: 25px 0;
+      }
+      .news:hover {
+         filter: brightness(115%);
+         width: unset;
+         height: 245px;
+      }
+      .btn-group2 a {
+         color: rgb(202, 201, 201);
+         font-weight: 600;
+         margin-right: 20px;
+      }
+      #ipt-1 {
+         left: 2.4%;
+      }
+      #ipt-2 {
+         left: 22.8%;
+      }
+      #ipt-3 {
+         left: 43%;
+      }
+      #ipt-4 {
+         left: 63.4%;
+      }
+      #ipt-5 {
+         left: 83.8%;
+      }
+   }
+
+   @media (max-width: 760px) {
+      #ipt-1 {
+         left: 0.6%;
+      }
+      #ipt-2 {
+         left: 20.8%;
+      }
+      #ipt-3 {
+         left: 41.25%;
+      }
+      #ipt-4 {
+         left: 61.8%;
+      }
+      #ipt-5 {
+         left: 81.6%;
+      }
+   }
+
+   @media (max-width: 680px) {
+      #ipt-1,
+      #ipt-2,
+      #ipt-3,
+      #ipt-4,
+      #ipt-5 {
+         display: none;
+      }
+      .content-box {
+         padding: 0px 80px 100px 80px;
+      }
+      .show-box {
+         display: none;
+      }
+      .content-box2 {
+         flex-wrap: wrap;
+      }
+      #pic-1,
+      #pic-2,
+      #pic-3,
+      #pic-4,
+      #pic-5 {
+         /* filter: brightness(100%); */
+         width: 100%;
+         height: 360px;
+      }
+      .content-box3 {
+         padding: 50px 55px 120px 55px;
+      }
+      .news-photo {
+         width: 65%;
+      }
+      .news-textbox {
+         width: 170px;
+         height: 32%;
+         padding: 10px 20px;
+      }
+      .news-textbox span {
+         font-size: 16px;
+      }
+      #footer {
+         padding: 10px 0 10px 10px;
+      }
+      .logo2 {
+         margin-right: 25px;
+      }
+      .btn-group2 a {
+         margin-right: 10px;
+         text-align: center;
+      }
+   }
+
+   @media (max-width: 576px) {
+      .content-box {
+         padding: 0px 50px 100px 50px;
+      }
+      .text {
+         line-height: 30px;
+      }
+   }
+}

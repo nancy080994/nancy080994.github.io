@@ -1,0 +1,1013 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Microsoft JhengHei";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#logobar {
+  width: 100%;
+  height: 60px;
+  background-color: #4b4b4b;
+}
+
+#logobar .container {
+  width: 1280px;
+  height: 100%;
+  margin: auto;
+}
+
+#logobar .container .logo {
+  width: 120px;
+  height: 100%;
+  background-image: url(../img/disneyLOGO-white.png);
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+}
+
+#banner {
+  width: 100%;
+  height: 600px;
+  background-color: #e4e4e4;
+  background-image: url(https://www.showmetech.com.br/wp-content/uploads/2016/03/zootopia.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-box-shadow: inset 0px 3px 3px rgba(51, 51, 102, 0.5);
+          box-shadow: inset 0px 3px 3px rgba(51, 51, 102, 0.5);
+  position: relative;
+}
+
+#banner .movie-name {
+  background-image: url(../img/Zootopia_logo_white..png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 42%;
+  height: 30%;
+  position: absolute;
+  top: 12%;
+  left: 5%;
+}
+
+#nav {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  margin: -16px 0;
+  -webkit-box-shadow: 0px 1px 4px 0px #acacac;
+          box-shadow: 0px 1px 4px 0px #acacac;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18.5px;
+  z-index: 666;
+}
+
+#nav .container {
+  width: 1280px;
+  height: 100%;
+  margin: auto;
+}
+
+#nav .container .btn-group {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#nav .container .btn-group div {
+  width: 200px;
+}
+
+#nav .container .btn-group div span {
+  display: block;
+  margin-top: -60px;
+  color: #f79250;
+}
+
+#nav .container div {
+  height: 60px;
+  line-height: 60px;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+}
+
+#nav .container div:nth-child(4) {
+  border-right: 1px solid #d1d1d1;
+}
+
+#nav .container a {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  font-weight: 600;
+  color: #353535;
+  border-left: 1px solid #d1d1d1;
+}
+
+#nav .container a:hover {
+  padding-top: 60px;
+  background-color: #f5f5f5;
+}
+
+#content {
+  width: 100%;
+  min-height: 800px;
+  background-color: #e4e4e4;
+  margin-top: 15px;
+}
+
+#content .container {
+  width: 1280px;
+  height: 100%;
+  margin: auto;
+}
+
+#content .container #section1 {
+  width: 100%;
+}
+
+#content .container #section1 #Fakesction1 .Fake-anchor {
+  width: 100px;
+  height: 60px;
+  position: absolute;
+  top: -59px;
+}
+
+#content .container #section1 .title {
+  width: 100%;
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px 0 10px 0;
+  margin-bottom: 25px;
+}
+
+#content .container #section1 .title .box {
+  min-width: 30px;
+  background-color: #7fcafc;
+}
+
+#content .container #section1 .title span {
+  font-family: "Neusa Next Pro Compact", Impact, Arial, sans-serif;
+  font-size: 24px;
+  color: #3d3d3d;
+  padding: 0 15px;
+}
+
+#content .container #section1 .title .box2 {
+  width: 100%;
+  background-color: #7fcafc;
+}
+
+#content .container #section1 .content-box {
+  width: 100%;
+  min-height: 200px;
+  padding: 60px 50px 100px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#content .container #section1 .content-box .text {
+  width: 450px;
+  min-height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 35px;
+  text-align: justify;
+  color: #555555;
+  margin-right: 55px;
+}
+
+#content .container #section1 .content-box .photo1 {
+  width: 600px;
+  height: 350px;
+  background-color: #a7a5a5;
+  background-image: url(https://www.viewmovie.tw/system/uploads/forala/image/file/558/1458788953300____1_.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#content .container #section2 #Fakesction2 .Fake-anchor {
+  width: 100px;
+  height: 60px;
+  position: absolute;
+  top: -59px;
+}
+
+#content .container #section2 .title {
+  width: 100%;
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px 0 10px 0;
+  margin-bottom: 25px;
+}
+
+#content .container #section2 .title .box {
+  min-width: 30px;
+  background-color: #ff9267;
+}
+
+#content .container #section2 .title span {
+  font-family: "Neusa Next Pro Compact", Impact, Arial, sans-serif;
+  font-size: 24px;
+  color: #3d3d3d;
+  padding: 0 15px;
+}
+
+#content .container #section2 .title .box2 {
+  width: 100%;
+  background-color: #ff9267;
+}
+
+#content .container #section2 .content-box {
+  width: 100%;
+  min-height: 200px;
+  padding: 60px 50px 100px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#content .container #section2 .content-box .CHARACTERS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#content .container #section2 .content-box .CHARACTERS .CHARACTERS-photo-border {
+  margin-right: 50px;
+  width: 240px;
+  height: 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#content .container #section2 .content-box .CHARACTERS .CHARACTERS-photo-border .CHARACTERS-1 {
+  background-image: url(http://img31.mtime.cn/mg/2016/02/05/111340.55707133.jpg);
+}
+
+#content .container #section2 .content-box .CHARACTERS .CHARACTERS-photo-border .CHARACTERS-2 {
+  background-image: url(http://img31.mtime.cn/mg/2016/02/05/111515.95222963.jpg);
+}
+
+#content .container #section2 .content-box .CHARACTERS .CHARACTERS-photo-border .CHARACTERS-3 {
+  background-image: url(http://img31.mtime.cn/mg/2016/02/05/111633.54851541.jpg);
+}
+
+#content .container #section2 .content-box .CHARACTERS .CHARACTERS-photo-border .CHARACTERS-4 {
+  background-image: url(http://img31.mtime.cn/mg/2016/02/05/111738.53763493.jpg);
+}
+
+#content .container #section2 .content-box .CHARACTERS .CHARACTERS-photo-border .CHARACTERS-5 {
+  background-image: url(http://img31.mtime.cn/mg/2016/02/23/094846.61508513.jpg);
+}
+
+#content .container #section2 .content-box .CHARACTERS .CHARACTERS-photo-border .CHARACTERS-6 {
+  background-image: url(http://img31.mtime.cn/mg/2016/02/23/095007.15538743.jpg);
+}
+
+#content .container #section2 .content-box .CHARACTERS .CHARACTERS-photo-border .CHARACTERS-7 {
+  background-image: url(http://img31.mtime.cn/mg/2016/02/05/112328.64585255.jpg);
+}
+
+#content .container #section2 .content-box .CHARACTERS .CHARACTERS-photo-border .CHARACTERS-8 {
+  background-image: url(https://www.chroniquedisney.fr/imgPerso/secondsroles/2016-gazelle-01.jpg);
+}
+
+#content .container #section2 .content-box .CHARACTERS .CHARACTERS-photo-border .CHARACTERS-photo {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: #a7a5a5;
+  border: 4px solid honeydew;
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#content .container #section2 .content-box .CHARACTERS .CHARACTERS-photo-border .CHARACTERS-photo:hover {
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(190, 149, 133, 0.623);
+          box-shadow: 0px 0px 10px 3px rgba(190, 149, 133, 0.623);
+  width: 240px;
+  height: 240px;
+}
+
+#content .container #section2 .content-box .CHARACTERS .text-box {
+  width: 780px;
+  min-height: 240px;
+  color: #555555;
+  line-height: 30px;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#content .container #section2 .content-box .CHARACTERS .text-box .h2 {
+  color: #b67961;
+}
+
+#content .container #section2 .content-box .line {
+  width: 100%;
+  height: 10px;
+  border-bottom: 1px solid rgba(182, 121, 97, 0.356);
+  margin: 60px 0;
+}
+
+#content .container #section3 #Fakesction3 .Fake-anchor {
+  width: 100px;
+  height: 60px;
+  position: absolute;
+  top: -59px;
+}
+
+#content .container #section3 .title {
+  width: 100%;
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px 0 10px 0;
+  margin-bottom: 25px;
+}
+
+#content .container #section3 .title .box {
+  min-width: 30px;
+  background-color: #7fcafc;
+}
+
+#content .container #section3 .title span {
+  font-family: "Neusa Next Pro Compact", Impact, Arial, sans-serif;
+  font-size: 24px;
+  color: #3d3d3d;
+  padding: 0 15px;
+}
+
+#content .container #section3 .title .box2 {
+  width: 100%;
+  background-color: #7fcafc;
+}
+
+#content .container #section3 .content-box2 {
+  width: 100%;
+  min-height: 300px;
+  padding: 60px 0 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  position: relative;
+}
+
+#content .container #section3 .content-box2 input {
+  width: 125px;
+  height: 125px;
+  margin: 0;
+  position: absolute;
+  z-index: 22;
+  opacity: 0;
+}
+
+#content .container #section3 .content-box2 #ipt-1:hover ~ #pic-1,
+#content .container #section3 .content-box2 #ipt-2:hover ~ #pic-2,
+#content .container #section3 .content-box2 #ipt-3:hover ~ #pic-3,
+#content .container #section3 .content-box2 #ipt-4:hover ~ #pic-4,
+#content .container #section3 .content-box2 #ipt-5:hover ~ #pic-5 {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+#content .container #section3 .content-box2 #pic-1,
+#content .container #section3 .content-box2 #pic-2,
+#content .container #section3 .content-box2 #pic-3,
+#content .container #section3 .content-box2 #pic-4,
+#content .container #section3 .content-box2 #pic-5:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+#content .container #section3 .content-box2 #ipt-1 {
+  left: 4.5%;
+}
+
+#content .container #section3 .content-box2 #ipt-1:checked ~ .show-box {
+  background-image: url(https://furry-fandom.ru/wp-content/uploads/2020/01/Zootopia-City-Panorama-scaled.jpg);
+}
+
+#content .container #section3 .content-box2 #ipt-2 {
+  left: 25%;
+}
+
+#content .container #section3 .content-box2 #ipt-2:checked ~ .show-box {
+  background-image: url(https://vidafascinante.com/uploads/posts/media/FILE-20161003-2252SWWZW6WP4CVA.png);
+}
+
+#content .container #section3 .content-box2 #ipt-3 {
+  left: 45.25%;
+}
+
+#content .container #section3 .content-box2 #ipt-3:checked ~ .show-box {
+  background-image: url(https://expresselevatortohell.files.wordpress.com/2016/05/zootopia-flash-flash-hundred-yard-dash.jpg);
+}
+
+#content .container #section3 .content-box2 #ipt-4 {
+  left: 65.5%;
+}
+
+#content .container #section3 .content-box2 #ipt-4:checked ~ .show-box {
+  background-image: url(https://pbs.twimg.com/media/ESxm-s7XkAM9fv9.jpg);
+}
+
+#content .container #section3 .content-box2 #ipt-5 {
+  left: 86%;
+}
+
+#content .container #section3 .content-box2 #ipt-5:checked ~ .show-box {
+  background-image: url(../img/第五張圖.jpg);
+}
+
+#content .container #section3 .content-box2 #pic-1 {
+  -webkit-filter: brightness(35%);
+          filter: brightness(35%);
+  background-image: url(https://furry-fandom.ru/wp-content/uploads/2020/01/Zootopia-City-Panorama-scaled.jpg);
+}
+
+#content .container #section3 .content-box2 #pic-2 {
+  -webkit-filter: brightness(35%);
+          filter: brightness(35%);
+  background-image: url(https://vidafascinante.com/uploads/posts/media/FILE-20161003-2252SWWZW6WP4CVA.png);
+}
+
+#content .container #section3 .content-box2 #pic-3 {
+  -webkit-filter: brightness(35%);
+          filter: brightness(35%);
+  background-image: url(https://expresselevatortohell.files.wordpress.com/2016/05/zootopia-flash-flash-hundred-yard-dash.jpg);
+}
+
+#content .container #section3 .content-box2 #pic-4 {
+  -webkit-filter: brightness(35%);
+          filter: brightness(35%);
+  background-image: url(https://pbs.twimg.com/media/ESxm-s7XkAM9fv9.jpg);
+}
+
+#content .container #section3 .content-box2 #pic-5 {
+  -webkit-filter: brightness(35%);
+          filter: brightness(35%);
+  background-image: url(../img/第五張圖.jpg);
+}
+
+#content .container #section3 .content-box2 .small-photo {
+  width: 18.5%;
+  height: 125px;
+  background-color: khaki;
+  background-position: center;
+  background-size: cover;
+}
+
+#content .container #section3 .content-box2 .show-box {
+  width: 100%;
+  height: 600px;
+  background-color: indianred;
+  margin-bottom: 22px;
+  background-image: url(https://furry-fandom.ru/wp-content/uploads/2020/01/Zootopia-City-Panorama-scaled.jpg);
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+#content .container #section4 #Fakesction4 .Fake-anchor {
+  width: 100px;
+  height: 60px;
+  position: absolute;
+  top: -59px;
+}
+
+#content .container #section4 .title {
+  width: 100%;
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px 0 10px 0;
+  margin-bottom: 25px;
+}
+
+#content .container #section4 .title .box {
+  min-width: 30px;
+  background-color: #ff9267;
+}
+
+#content .container #section4 .title span {
+  font-family: "Neusa Next Pro Compact", Impact, Arial, sans-serif;
+  font-size: 24px;
+  color: #3d3d3d;
+  padding: 0 15px;
+}
+
+#content .container #section4 .title .box2 {
+  width: 100%;
+  background-color: #ff9267;
+}
+
+#content .container #section4 .content-box3 {
+  width: 100%;
+  min-height: 200px;
+  padding: 70px 110px 130px 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#content .container #section4 .content-box3 .news:nth-child(2) {
+  margin: 0 25px 0;
+}
+
+#content .container #section4 .content-box3 .news {
+  width: 340px;
+  height: 450px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(153, 153, 153, 0.623);
+          box-shadow: 0px 0px 10px 3px rgba(153, 153, 153, 0.623);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#content .container #section4 .content-box3 .news:hover {
+  -webkit-filter: brightness(115%);
+          filter: brightness(115%);
+  width: 420px;
+}
+
+#content .container #section4 .content-box3 .news .news-photo {
+  width: 100%;
+  height: 70%;
+  background-color: lightseagreen;
+  background-position: center;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px -17px 10px -15px rgba(34, 34, 34, 0.185);
+          box-shadow: inset 0px -17px 10px -15px rgba(34, 34, 34, 0.185);
+  display: block;
+}
+
+#content .container #section4 .content-box3 .news .news-photo1 {
+  background-image: url(https://media.begeek.fr/2017/11/disney.jpg);
+}
+
+#content .container #section4 .content-box3 .news .news-photo2 {
+  background-image: url(https://static.billboard.com/files/media/shakira-try-everything-vid-2016-billboard-650-compressed.jpg);
+}
+
+#content .container #section4 .content-box3 .news .news-photo3 {
+  background-image: url(https://www.natgeomedia.com/wp-content/uploads/2016/03/%E5%89%9B%E6%8A%B5%E9%81%94%E5%8B%95%E7%89%A9%E6%96%B9%E5%9F%8E%E5%B8%82.png);
+}
+
+#content .container #section4 .content-box3 .news .news-textbox {
+  width: 375px;
+  height: 30%;
+  background-color: white;
+  padding: 15px 50px;
+  text-align: justify;
+}
+
+#content .container #section4 .content-box3 .news .news-textbox span {
+  color: #b67961;
+  font-size: 19.5px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+#content .container #section1,
+#content .container #section2,
+#content .container #section3,
+#content .container #section4 {
+  position: relative;
+}
+
+#content #footer {
+  width: 100%;
+  height: 70px;
+  background-color: #4b4b4b;
+  -webkit-box-shadow: 0px -3px 10px 0px #9c9c9c;
+          box-shadow: 0px -3px 10px 0px #9c9c9c;
+  padding: 10px 0 10px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#content .logo2 {
+  width: 130px;
+  height: 100%;
+  background-image: url(../img/disneyLOGO-white.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#content .btn-group2 {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#content .btn-group2 a {
+  color: #cac9c9;
+  font-weight: 600;
+  margin-right: 55px;
+}
+
+#content .btn-group2 a:hover {
+  color: #ff9267;
+}
+
+#content #GotoTop {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(175, 175, 175, 0.719);
+  border-radius: 50%;
+  position: fixed;
+  z-index: 3;
+  right: 35px;
+  bottom: 20px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background-image: url(../img/arrow-icon-white-2.png);
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+}
+
+#content #GotoTop:hover {
+  width: 75px;
+  height: 75px;
+  background-color: #ff9267;
+  background-image: url(../img/arrow-icon-white.png);
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(153, 153, 153, 0.623);
+          box-shadow: 0px 0px 10px 2px rgba(153, 153, 153, 0.623);
+}
+
+@media (max-width: 1280px) {
+  #content .container {
+    width: 1140px;
+  }
+  #content #nav .btn-group div {
+    width: 180px;
+  }
+  #content .text {
+    width: 300px;
+    min-height: 350px;
+  }
+  #content .photo1 {
+    width: 500px;
+    height: 350px;
+    background-color: #a7a5a5;
+    background-image: url(https://www.viewmovie.tw/system/uploads/forala/image/file/558/1458788953300____1_.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #content .text-box {
+    width: 650px;
+  }
+  #content .news {
+    width: 290px;
+  }
+  #content .news-textbox {
+    width: 300px;
+    padding: 15px 30px;
+  }
+}
+
+@media (max-width: 1140px) {
+  #content .container {
+    width: 960px;
+  }
+  #content .text-box {
+    width: 530px;
+  }
+  #content .news-photo {
+    width: 100%;
+    height: 68%;
+  }
+  #content .news {
+    width: 230px;
+  }
+  #content .news-textbox {
+    width: 265px;
+    height: 32%;
+    padding: 10px 45px;
+  }
+  #content .news-textbox span {
+    font-size: 17.5px;
+  }
+  #content .btn-group2 a {
+    color: #cac9c9;
+    font-weight: 600;
+    margin-right: 40px;
+  }
+  #content #ipt-1 {
+    left: 3%;
+  }
+  #content #ipt-2 {
+    left: 23.5%;
+  }
+  #content #ipt-3 {
+    left: 44%;
+  }
+  #content #ipt-4 {
+    left: 63.9%;
+  }
+  #content #ipt-5 {
+    left: 84.5%;
+  }
+}
+
+@media (max-width: 960px) {
+  #content .container {
+    width: 100%;
+  }
+  #content #nav .btn-group div {
+    width: 25%;
+  }
+  #content .content-box {
+    padding: 0px 150px 100px 150px;
+  }
+  #content #section2 .content-box {
+    padding-top: 20px;
+  }
+  #content .box {
+    min-width: 0;
+    width: 100%;
+  }
+  #content .text {
+    width: 100%;
+    min-height: 250px;
+  }
+  #content .content-box .text {
+    margin-right: 0;
+  }
+  #content .photo1 {
+    width: 100%;
+    height: 350px;
+    background-color: #a7a5a5;
+    background-image: url(https://www.viewmovie.tw/system/uploads/forala/image/file/558/1458788953300____1_.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #content .CHARACTERS {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #content .CHARACTERS-photo-border {
+    margin-right: 0;
+  }
+  #content .h2 {
+    color: #b67961;
+    margin: 25px auto;
+  }
+  #content .text-box {
+    width: 100%;
+    min-height: 150px;
+  }
+  #content .content-box3 {
+    padding: 50px 110px 120px 110px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #content .news {
+    width: 100%;
+    height: 200px;
+    -webkit-box-shadow: 4px 3px 9px -2px rgba(150, 150, 150, 0.527);
+            box-shadow: 4px 3px 9px -2px rgba(150, 150, 150, 0.527);
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #content .news-photo {
+    width: 60%;
+    height: 100%;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+  #content .news-textbox {
+    height: 100%;
+    padding: 15px 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #content .content-box3 .news:nth-child(2) {
+    margin: 25px 0;
+  }
+  #content .news:hover {
+    -webkit-filter: brightness(115%);
+            filter: brightness(115%);
+    width: unset;
+    height: 245px;
+  }
+  #content .btn-group2 a {
+    color: #cac9c9;
+    font-weight: 600;
+    margin-right: 20px;
+  }
+  #content #ipt-1 {
+    left: 2.4%;
+  }
+  #content #ipt-2 {
+    left: 22.8%;
+  }
+  #content #ipt-3 {
+    left: 43%;
+  }
+  #content #ipt-4 {
+    left: 63.4%;
+  }
+  #content #ipt-5 {
+    left: 83.8%;
+  }
+}
+
+@media (max-width: 760px) {
+  #content #ipt-1 {
+    left: 0.6%;
+  }
+  #content #ipt-2 {
+    left: 20.8%;
+  }
+  #content #ipt-3 {
+    left: 41.25%;
+  }
+  #content #ipt-4 {
+    left: 61.8%;
+  }
+  #content #ipt-5 {
+    left: 81.6%;
+  }
+}
+
+@media (max-width: 680px) {
+  #content #ipt-1,
+  #content #ipt-2,
+  #content #ipt-3,
+  #content #ipt-4,
+  #content #ipt-5 {
+    display: none;
+  }
+  #content .content-box {
+    padding: 0px 80px 100px 80px;
+  }
+  #content .show-box {
+    display: none;
+  }
+  #content .content-box2 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #content #pic-1,
+  #content #pic-2,
+  #content #pic-3,
+  #content #pic-4,
+  #content #pic-5 {
+    /* filter: brightness(100%); */
+    width: 100%;
+    height: 360px;
+  }
+  #content .content-box3 {
+    padding: 50px 55px 120px 55px;
+  }
+  #content .news-photo {
+    width: 65%;
+  }
+  #content .news-textbox {
+    width: 170px;
+    height: 32%;
+    padding: 10px 20px;
+  }
+  #content .news-textbox span {
+    font-size: 16px;
+  }
+  #content #footer {
+    padding: 10px 0 10px 10px;
+  }
+  #content .logo2 {
+    margin-right: 25px;
+  }
+  #content .btn-group2 a {
+    margin-right: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  #content .content-box {
+    padding: 0px 50px 100px 50px;
+  }
+  #content .text {
+    line-height: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

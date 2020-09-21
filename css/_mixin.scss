@@ -1,0 +1,118 @@
+@mixin container() {
+   width: 1280px;
+   height: 100%;
+   margin: auto;
+}
+
+@mixin title_a() {
+   width: 100%;
+   height: 65px;
+   display: flex;
+   padding: 25px 0 10px 0;
+   margin-bottom: 25px;
+
+   .box {
+      min-width: 30px;
+      background-color: rgb(127, 202, 252);
+   }
+
+   span {
+      font-family: "Neusa Next Pro Compact", Impact, Arial, sans-serif;
+      font-size: 24px;
+      color: rgb(61, 61, 61);
+      padding: 0 15px;
+   }
+
+   .box2 {
+      width: 100%;
+      background-color: rgb(127, 202, 252);
+   }
+}
+
+@mixin title_b() {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    padding: 25px 0 10px 0;
+    margin-bottom: 25px;
+ 
+    .box {
+       min-width: 30px;
+       background-color: rgb(255, 146, 103);
+    }
+ 
+    span {
+       font-family: "Neusa Next Pro Compact", Impact, Arial, sans-serif;
+       font-size: 24px;
+       color: rgb(61, 61, 61);
+       padding: 0 15px;
+    }
+ 
+    .box2 {
+       width: 100%;
+       background-color: rgb(255, 146, 103);
+    }
+ }
+ 
+
+@mixin content-box {
+   width: 100%;
+   min-height: 200px;
+   padding: 60px 50px 100px 50px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+
+
+@mixin CHARACTERS-photo-border {
+   margin-right: 50px;
+   width: 240px;
+   height: 240px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+@mixin CHARACTERS-photo {
+   width: 220px;
+   height: 220px;
+   border-radius: 50%;
+   background-color: rgb(167, 165, 165);
+   border: 4px solid honeydew;
+   background-position: center;
+   background-size: cover;
+   transition: 0.5s;
+}
+
+@mixin CHARACTERS-photo_hover {
+   box-shadow: 0px 0px 10px 3px rgba(190, 149, 133, 0.623);
+   width: 240px;
+   height: 240px;
+}
+
+@mixin text_box {
+   width: 780px;
+   min-height: 240px;
+   color: rgb(85, 85, 85);
+   line-height: 30px;
+   text-align: justify;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+@mixin line {
+   width: 100%;
+   height: 10px;
+   border-bottom: 1px solid rgba(182, 121, 97, 0.356);
+   margin: 60px 0;
+}
+
+@mixin Fake-anchor {
+   width: 100px;
+   height: 60px;
+   position: absolute;
+   top: -59px;
+}
